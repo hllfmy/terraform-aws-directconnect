@@ -128,9 +128,9 @@ variable "dx_private_vif_name" {
   default     = "this-is-a-default-name"
 }
 
-variable "dx_private_vif_tags" {
-  description = "Tags to be applied to a Private VIF !!! Not Hosted Private VIF"
-  default     = {}
+//variable "dx_private_vif_tags" {
+  //description = "Tags to be applied to a Private VIF !!! Not Hosted Private VIF"
+  //default     = {}
 
   type = map(string)
 }
